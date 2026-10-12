@@ -2,6 +2,10 @@
 .env*
 !.env.dummy
 
+# Book sample codes
+sql/book/*
+!sql/book/.gitkeep
+
 # OS-generated files
 .DS_Store
 Thumbs.db
