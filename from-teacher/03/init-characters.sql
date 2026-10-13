@@ -14,7 +14,7 @@ CREATE TABLE characters (
   name VARCHAR(16) NOT NULL,
   job VARCHAR(16) NOT NULL,
   level INTEGER NOT NULL,
-  buff DECIMAL(3, 2) NOT NULL,
+  buff NUMERIC(3, 2) NOT NULL,
   guild VARCHAR(32),
   last_login_at TIMESTAMP,
   created_on DATE NOT NULL,
